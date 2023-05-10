@@ -72,7 +72,7 @@ img{
 .barra{
     /* background-color: rgba(199, 102, 102, 0.836); */
     background-color: var(--verdeAdobe);
-    height: 8rem;
+    height: 11rem;
 }
 
 
@@ -137,7 +137,7 @@ border-radius: 50%;
 
 .ilustrador{
     background-color: rgba(158, 152, 162, 0.796);
-    padding: 5rem;
+    padding: .5rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -303,6 +303,7 @@ background: linear-gradient(31deg, rgba(255,200,0,0.7960434173669468) 22%, rgba(
 @media (min-width: 768px) {
 
     .barra {
+        height: 8rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -332,7 +333,7 @@ background: linear-gradient(31deg, rgba(255,200,0,0.7960434173669468) 22%, rgba(
     }
     
     .ilustrador{
-        display: block;
+        /* display: block; */
     }
     
     .ilustrador img{
