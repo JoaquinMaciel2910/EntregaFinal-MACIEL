@@ -367,13 +367,13 @@ border-radius: 50%;
         margin: 3rem 2rem;
         padding: 1rem;
         max-width: 100%;
-        background-color: #c5bb9abc;
+        background-color: #000000bc;
         
         
     }
     
     .carrusel__herramientas img{
-        height: 60rem;
+        max-height: 50rem;
     }
     
     
