@@ -237,6 +237,22 @@ border-radius: 50%;
 }
 
 
+/* MAIN HERRAMIENTAS */
+
+.carrusel__herramientas{
+    margin: 1rem 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
+    background-color: #000000bc;
+    
+    
+}
+
+.carrusel__herramientas img{
+    max-height: 16rem;
+}
+
+
 
 
 /* FORMULARIO */
@@ -344,7 +360,21 @@ border-radius: 50%;
     .ilustrador img{
         width: 500rem;
     }
+
+    /* HERRAMIENTAS */
     
+    .carrusel__herramientas{
+        margin: 3rem 2rem;
+        padding: 1rem;
+        max-width: 100%;
+        background-color: #c5bb9abc;
+        
+        
+    }
+    
+    .carrusel__herramientas img{
+        height: 60rem;
+    }
     
     
     
