@@ -102,12 +102,14 @@ border-radius: 50%;
 
 .navegadores{
     transition: .5s;
+    
 }
 
 .navegadores:hover{
-    color: rgba(246, 255, 0, 0.799);
-    transform: scale(1.1);
+    color: rgba(52, 0, 207, 0.799);
     transform: rotate(-7deg);
+    
+    
 }
 
 .navegacion{
