@@ -1,0 +1,52 @@
+.header {
+
+
+
+}
+
+
+.barra{
+    /* background-color: rgba(199, 102, 102, 0.836); */
+    background-color: var(--verdeAdobe);
+    height: 12rem;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.imagenLogo{
+max-width: 7.5rem;
+margin-top: 0.3rem;
+border-radius: 50%;
+}
+
+
+
+.navegadores{
+    display: block;
+    text-align: center;
+    color: rgb(24, 3, 43);
+    font-family: 'Alkatra', cursive;
+}
+
+.navegadores{
+    transition: .5s;
+    
+}
+
+.navegadores:hover{
+    color: rgba(52, 0, 207, 0.799);
+    transform: rotate(-7deg);
+    
+    
+}
+
+.navegacion{
+        
+}

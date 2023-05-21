@@ -1,0 +1,101 @@
+/* MQ MOBILE */
+
+@media (min-width: 426px) {
+
+    .barra {
+        height: 8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    
+    }
+
+    .navegacion{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        }
+
+        
+    .navegadores{
+            margin-right: 1rem;
+        }
+
+    
+    .contenido_principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+    
+    .ilustrador{
+        /* display: block; */
+    }
+    
+    .ilustrador img{
+        width: 500rem;
+    }
+
+    /* HERRAMIENTAS */
+    
+    .carrusel__herramientas{
+        margin: 3rem 2rem;
+        padding: 1rem;
+        max-width: 100%;
+        background-color: #000000bc;
+        
+        
+    }
+    
+    .carrusel__herramientas img{
+        max-height: 50rem;
+    }
+    
+    
+    
+    
+}
+
+@media (min-width: 768px) {
+    .barra {
+        height: 8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    
+    }
+
+    .navegacion{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        }
+
+        
+    .navegadores{
+            margin-right: 1rem;
+        }
+
+    
+    .contenido_principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+    
+    .ilustrador{
+        /* display: block; */
+    }
+    
+    .ilustrador img{
+        width: 500rem;
+    }
+}

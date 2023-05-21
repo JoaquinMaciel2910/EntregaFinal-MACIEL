@@ -1,59 +1,5 @@
-/* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-:root {
-  --bordoNavBar: rgba(167, 2, 2, 0.788);
-  --verdeMenta: rgb(152,255,179);
-  --azulMarino: rgb(25, 25, 112);
-  --azulPastel: rgb(173, 216, 230);
-  --azulOscuro: rgb(135, 206, 235);
-  --verdeAdobe: #56CCB3;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-/* BASICOS */
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h1, h2, h3 {
-  margin: 0 0 5rem 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* BARRA */
 .barra {
   /* background-color: rgba(199, 102, 102, 0.836); */
   background-color: var(--verdeAdobe);
@@ -91,6 +37,99 @@ img {
   color: rgba(52, 0, 207, 0.799);
   -webkit-transform: rotate(-7deg);
           transform: rotate(-7deg);
+}
+
+/* FORMULARIO */
+.section__contact {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 10rem;
+}
+
+.formulario {
+  background-color: rgb(187, 179, 86);
+  padding: 5rem;
+  border-radius: 5rem;
+}
+
+.formulario__fieldset legend {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.formulario__fieldset {
+  border: none;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.892);
+  font-family: "Alkatra", cursive;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.campo input {
+  max-width: 100%;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  background-color: blanchedalmond;
+}
+
+.boton {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+/* FUENTES */
+/* GLOBALES  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h1, h2, h3 {
+  margin: 0 0 5rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Main index*/
@@ -215,55 +254,6 @@ img {
   max-height: 16rem;
 }
 
-/* FORMULARIO */
-.section__contact {
-  text-align: center;
-  background-color: blanchedalmond;
-  padding: 10rem;
-}
-
-.formulario {
-  background-color: rgb(187, 179, 86);
-  padding: 5rem;
-  border-radius: 5rem;
-}
-
-.formulario__fieldset legend {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.formulario__fieldset {
-  border: none;
-}
-
-.campo {
-  margin-bottom: 1rem;
-}
-
-.campo label {
-  margin-right: 0.5rem;
-  color: rgba(255, 255, 255, 0.892);
-  font-family: "Alkatra", cursive;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.campo input {
-  max-width: 100%;
-  border-radius: 2rem;
-  font-size: 1.5rem;
-  background-color: blanchedalmond;
-}
-
-.boton {
-  margin-top: 3rem;
-  border-radius: 1rem;
-  font-size: 1.8rem;
-  text-decoration: none;
-}
-
 /* MQ MOBILE */
 @media (min-width: 426px) {
   .barra {
@@ -357,7 +347,15 @@ img {
     width: 500rem;
   }
 }
-/* FOOTER */
+:root {
+  --bordoNavBar: rgba(167, 2, 2, 0.788);
+  --verdeMenta: rgb(152,255,179);
+  --azulMarino: rgb(25, 25, 112);
+  --azulPastel: rgb(173, 216, 230);
+  --azulOscuro: rgb(135, 206, 235);
+  --verdeAdobe: #56CCB3;
+}
+
 footer {
   background-color: #56CCB3;
   padding: 1rem;

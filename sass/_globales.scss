@@ -1,0 +1,49 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* GLOBALES  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+
+h1{
+    font-size: 4rem;
+    
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+h1, h2, h3{
+    margin: 0 0 5rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
