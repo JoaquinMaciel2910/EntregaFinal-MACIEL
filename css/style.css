@@ -221,6 +221,10 @@ img {
   max-height: 16rem;
 }
 
+.ilustrador__herramientas {
+  height: 97%;
+}
+
 /* FORMULARIO */
 .section__contact {
   text-align: center;
