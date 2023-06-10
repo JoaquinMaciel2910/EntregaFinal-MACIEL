@@ -65,3 +65,15 @@
     font-size: 1.8rem;
     text-decoration: none;
 }
+
+.pasos__batido{
+    display: flex;
+    justify-content: center;
+    gap:2.5rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    color: rgba(255, 255, 255, 0.892);
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
